@@ -1,0 +1,28 @@
+{
+  "name": "entrega-argentina",
+  "version": "1.0.0",
+  "description": "Este es mi entrega de portafolio de Front End en Argentina Programa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liNahuel/FrontEnd-ArgentinaPrograma.git"
+  },
+  "keywords": [
+    "Argentina",
+    "Programa",
+    "Programacion"
+  ],
+  "author": "Nahuel Barraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liNahuel/FrontEnd-ArgentinaPrograma/issues"
+  },
+  "homepage": "https://github.com/liNahuel/FrontEnd-ArgentinaPrograma#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
