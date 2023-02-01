@@ -4,27 +4,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Portafolio Nahuel Barraza</title>
 </head>
 <body>
     <!-- Menu encabezado -->
     <div class="contenedor_header">
-        <header>
+        <header class="header">
             <div class="logo">
                 <a href="">Nahuel</a>
             </div>
             <nav id="nav">
                 <ul>
-                    <li class="a">Inicio</li>
-                    <li class="a">Sobre mi</li>
-                    <li class="a">Skills</li>
-                    <li class="a">Curriculum</li>
-                    <li class="a">Portafolio</li>
-                    <li class="a">Contacto</li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
+            <div class="nav_responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </header>
     </div>
+
+    <!-- Seccion principal-->
+    <section id="inicio" class="inicio">
+        <div class="contenedor_banner">
+        <div class="contenedor_img">
+            <img src="" alt="Nahuel Barraza">
+        </div>
+        <h1>Nahuel Barraza</h1>
+        <h2>Estudiante de Argentina Programa 4.0</h2>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <!--  Sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor_seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Nahuel Barraza estudiante de Psicologia y con una fuerte aficcion a la programacion. Esta es mi landing page que logre realizar gracias a los cursos que me permitio Argentina Programa y otras plataformas. </span></p>
+        <div class="fila">
+            <!-- Datos personales-->
+            <div class="fila_col">
+                <h3>Datos personales</h3>
+            <ul>
+                <li>
+                    <strong>Cumpleaños</strong>
+                    15-12-1999
+                </li>
+                <li>
+                    <strong>Teléfono</strong>
+                    381-5945690
+                </li>
+                <li>
+                    <strong>Email</strong>
+                    lnahuel.el@gmail.com
+                </li>
+                <li>
+                    <strong>Dirección</strong>
+                    San Miguel de Tucuman, Argentina.
+                </li>
+                <li>
+                    <strong>Cargo</strong>
+                    <span>FREELANCE</span>
+                </li>
+            </ul>
+            </div>
+            <!-- Intereses-->
+            <div class="fila_col">
+                <h3>Intereses</h3>
+                <div class="contenedor_intereses">
+                <div class="intereses">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Libros</span>
+                </div>
+                <div class="intereses">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>Juegos</span>
+                </div>
+                <div class="intereses">
+                <i class="fa-solid fa-bicycle"></i> 
+                    <span>Ciclismo</span>
+                </div>
+                <div class="intereses">
+                    <i class="fa-solid fa-headphones"></i>
+                        <span>Musica</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-dumbbell"></i>                            <span>Fitness</span>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <button>
+        DESCARGAR CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+
+    <!-- SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenedor_seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Skills tecnicos -->
+                <div class="fila_col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill profesionales -->
+                <div class="fila_col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenedor_seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo WEB</h4>
+                        <span class="casa">Coder House</span>
+                        <span class="fecha">En curso</span>
+                        <p>Curso de Desarrollo WEB en Coder House. Incluyendo tecnologias como ser HTML-CSS-SASS-JAVASCRIPT</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo Web FULLSTACK</h4>
+                        <span class="casa">Argentina Programa</span>
+                        <span class="fecha">En curso</span>
+                        <p>Me encuentro cursando diferentes etapas del Argentina Programa. Como ser: "Argentina Programa 2°Modulo y Argentina Programa 4.0</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Psicologia</h4>
+                        <span class="casa">Universidad Nacional de Tucuman</span>
+                        <span class="fecha">En curso</span>
+                        <p>Carrera de Psicologia.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencias de trabajo</h3>
+                    <div class="item der">
+                        <h4>Call Center</h4>
+                        <span class="casa">Aegis</span>
+                        <span class="fecha">2019-2023</span>
+                        <p>Empresa de Telecomunicaciones</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="https://kit.fontawesome.com/e2292c666a.js" crossorigin="anonymous"></script>
 </html>

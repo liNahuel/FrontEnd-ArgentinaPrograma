@@ -1,0 +1,17 @@
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+//Reset scss.
+@import "./misc/_reset";
+
+//Header y Footer.
+@import "./header/_header";
+
+//Variables 
+@import "./misc/variables";
+
+//Paginas
+@import "./pages/main";
+@import "./pages/aboutme";
+@import "./pages/skills";
+@import "./pages/curriculum";
