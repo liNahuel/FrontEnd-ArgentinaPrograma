@@ -226,7 +226,8 @@ html {
     text-align: center;
     padding: 20px 0; }
   .curriculum .fila {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
     .curriculum .fila .col {
       width: 49%;
       padding: 0 20px; }
@@ -256,3 +257,17 @@ html {
         margin-bottom: 10px; }
       .curriculum .fila .item p {
         line-height: 24px; }
+      .curriculum .fila .item .conectori {
+        height: 2px;
+        background-color: #1cb698;
+        width: 47px;
+        top: 50%;
+        position: absolute;
+        right: -47px;
+        z-index: 5; }
+    .curriculum .fila .izq {
+      border-right: 2px solid #1cb698;
+      margin-right: 20px; }
+    .curriculum .fila .der {
+      border-left: 2px solid #1cb698;
+      margin-left: 20px; }
