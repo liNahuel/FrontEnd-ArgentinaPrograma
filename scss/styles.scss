@@ -5,7 +5,8 @@
 @import "./misc/_reset";
 
 //Header y Footer.
-@import "./header/_header";
+@import "./HeaderFooter/footer";
+@import "./HeaderFooter/header";
 
 //Variables 
 @import "./misc/variables";
@@ -15,3 +16,4 @@
 @import "./pages/aboutme";
 @import "./pages/skills";
 @import "./pages/curriculum";
+@import "./pages/contacto";
