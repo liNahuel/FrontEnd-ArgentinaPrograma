@@ -1,0 +1,78 @@
+// Seccion responsive.
+
+
+//MEDIDAS DE TABLET
+@media screen and(max-width:980px) {
+    nav{
+        display: none;
+        & .responsive{
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 75px;
+            background-color: #252A2E;
+            width: 100%;
+            & ul{
+                display: block !important;
+                li{
+                    border-bottom: 1px solid #fff;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .nav_responsive{
+        display: block;
+    }
+}
+
+//MEDIDAS DE SMARTHPHONE
+
+@media screen and (max-width:780px) {
+    //SOBRE MI
+    .sobremi{
+        & .fila{
+        display: block;
+        & .fila_col{
+            width: fit-content;
+        }
+        }
+    }
+
+    //SKILLS
+    .skills{
+        & .fila{
+            display: block;
+            & .fila_col{
+                width: 100%;
+                & .barra-skill{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    //CURRICULUM
+    .curriculum{
+        display: block;
+        .fila{
+            width: 90%;
+        }
+        .derecha{
+            margin-left: 20px;
+        }
+        .fila .item .conectord{
+            top:44.5%;
+        }
+    }
+
+    //Contacto
+    .contacto{
+        .fila{
+            display: block;
+            .fila_col{
+                width: 100%;
+            }
+        }
+    }
+}
